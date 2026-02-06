@@ -1,0 +1,31 @@
+.container {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  & main {
+    background-color: #ffffff;
+    max-width: 34.75rem;
+    border-radius: 0.75rem;
+    padding: 4.5rem 2rem;
+  }
+}
+
+.words {
+  margin-block: 3.25rem;
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.guess {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+}
