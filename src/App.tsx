@@ -1,4 +1,4 @@
-import styles from "./app.module.css"
+import styles from "./app.module.scss"
 import { useCallback, useEffect, useState } from "react"
 
 import { WORDS, type Challenge } from "./utils/words"
