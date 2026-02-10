@@ -8,7 +8,8 @@
 
   & main {
     background-color: #ffffff;
-    max-width: 34.75rem;
+    /* max-width: 34.75rem; */
+    width: 34.75rem;
     border-radius: 0.75rem;
     padding: 4.5rem 2rem;
   }
